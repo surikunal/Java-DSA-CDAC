@@ -1,4 +1,4 @@
-package lectrure04;
+package lecture04;
 
 public class Linkedlist {
     class Node {
