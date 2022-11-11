@@ -1,5 +1,3 @@
-package lecture07;
-
 public class tree {
     public static class Node {
         int data = 0;
