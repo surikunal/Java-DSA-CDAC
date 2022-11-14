@@ -99,8 +99,11 @@ public class dfs {
         vis[src] = true;
         for ( Edge e: graph[src] ) {
             if ( vis[e.v] == false ) {
-                hasPath(e.v, dest, vis);
+                dfs(e.v, dest, vis);
             }
         }
+
+        // for all paths question
+        // vis[src] = false;   // again available for visiting
     }
 }
